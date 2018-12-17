@@ -1,0 +1,75 @@
+h1{
+    font-family: 'Great Vibes', cursive;
+}
+
+h1{
+    font-size: 150px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#header, #votenow, #pics, #end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: white;
+    background-image: url("http://www.rihannanow.com/wp-content/uploads/2018/06/6.27_44_Vivanco_PalmSprings_Beauty_154_RGB_500PX-240x300.jpg");
+}
+
+#votenow {
+    background-image: url("https://image.shutterstock.com/image-photo/black-marble-natural-pattern-background-260nw-1174423582.jpg");
+}
+
+#votenow button {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    background: white;
+    color: silver;
+    border-radius: 60px;
+    border: solid white 5px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#pics {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX32KpoE11uAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC");
+}
+
+#end {
+    background-image: url("https://image.shutterstock.com/image-photo/black-marble-natural-pattern-background-260nw-1174423582.jpg");
+}
+
+#pics img {
+    width: 30%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+}
+
+#pics {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+#pics img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
